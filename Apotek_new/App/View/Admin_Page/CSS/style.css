@@ -1,0 +1,47 @@
+/* Atur ukuran gambar */
+img {
+    width: 30%;
+    height: auto;
+}
+/* Atur tampilan navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+}
+.nav-link {
+    color: #000;
+    font-weight: bold;
+}
+/* Atur judul tabel */
+.table-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* Atur tombol aksi */
+.btn-aksi {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.btn-aksi.edit {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+.btn-aksi.edit:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.btn-aksi.hapus {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+.btn-aksi.hapus:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
